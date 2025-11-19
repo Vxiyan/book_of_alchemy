@@ -27,11 +27,11 @@ public class ModItems {
 
         return item;
     }
-    @Override
-    public TypedActionResult<ItemStack> Item.use(Level world, Player user, InteractionHand hand) {
+    // @Override
+    // public TypedActionResult<ItemStack> Item.use(Level world, Player user, InteractionHand hand) {
 
-        return super.use(world, user, hand);
-    }
+        // return super.use(world, user, hand);
+    // }
     public static final Item Book_of_Alchemy = register("book_of_alchemy", Item::new, new Item.Properties().stacksTo(1).useCooldown(5));
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
