@@ -12,6 +12,5 @@ public class Book_of_alchemy implements ModInitializer {
 	public void onInitialize() {
         System.out.println("Alchemy Initialized");
         ModItems.initialize();
-        ScreenHandler.initialize();
     }
 }
